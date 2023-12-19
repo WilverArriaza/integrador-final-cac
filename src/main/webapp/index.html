@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaC TP Integrador</title>
+
+<!-- LOCAL STYLES -->
+ <link rel="stylesheet" href="./src/css/styles.css">
+ <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+ <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+
+</head>
+<body onload = "changeImage()">
+
+
+    <header>
+
+        <!-- NAVBAR BOOTSTRAP -->
+
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" style="background-color: var(--gray-800) !important">
+            <div class="container-fluid mx-5 px-5">            
+              <!-- <a class="navbar-brand text-light" href="#">Conf Bs As</a> -->
+                <span><img src="./src/img/codoacodo.png" alt="CaC logo"></span>
+                <h3 class="navbar-brand-h1 me-auto text-light fs-2">Conf Bs As</h3>
+
+                            
+                <div class="justify-content-end">
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link Active text-light fs-5" aria-current="page" href="#">La conferencia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-secondary fs-5" href="#">Los oradores</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-secondary fs-5" href="#">El lugar y la fecha</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-secondary fs-5" href="#">Conviertete en orador</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-success fs-5" href="./src/pages/tickets.html">Comprar tickets</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+              
+              
+            </div>
+          </nav>
+
+    </header>
+
+    <main>
+        
+        <!-- SHOWCASE -->
+        <section class="showcase" id="img">
+
+            <div class="shadow">
+
+                <div class="container-flex">
+
+                    <div class="content">
+
+                        <h1>Conf Bs As</h1>
+                        <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad
+                            el conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer
+                            a miembros del evento, a otros estudiantes Codo a Codo y a los oradores de primer nivel que tenemos
+                            para ti. Te esperamos!</p>
+                        <div class="buttonarea">
+
+                            <a href="#" class="btn btn-transparent">Quiero ser orador</a>
+                            <a href="./src/pages/tickets.html" class="btn btn-solid">Comprar tickets</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+         <!-- ORADORES -->
+
+         <section class="speakers" id="speakers">
+
+          <div class="title">
+            <h6>CONOCE A LOS</h6>
+            <h2>ORADORES</h2>
+          </div>
+
+          <div class="container-speakers">
+
+            <!-- CARDS -->
+            
+            <!-- CARD STEVE -->
+
+            <div class="card zoom">
+              <img src="./src/img/steve.jpg" alt="Steve Jobs">
+              <div class="skills">
+                <a href="#"><span class="badge text-bg-warning">JavaScript</span></a>
+                <a href="#"><span class="badge text-bg-info">React</span></a>                
+              </div>              
+              <h3>Steve Jobs</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquid dicta, iure itaque quisquam consequuntur.</p>
+            </div>
+
+            <!-- CARD BILL -->
+
+            <div class="card">
+              <img src="./src/img/bill.jpg" alt="Bill Gates">
+              <div class="skills">
+                <a href="#"><span class="badge text-bg-warning">JavaScript</span></a>
+                <a href="#"><span class="badge text-bg-info">React</span></a> 
+              </div>              
+              <h3>Bill Gates</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquid dicta, iure itaque quisquam consequuntur.</p>
+            </div>
+
+            <!-- CARD ADA -->
+
+            <div class="card">
+              <img src="./src/img/ada.jpeg" alt="Ada Lovelace">
+              <div class="skills">
+                <a href="#"><span class="badge text-bg-secondary">Negocios</span></a>
+                <a href="#"><span class="badge text-bg-danger">Startups</span></a> 
+              </div>              
+              <h3>Ada Lovelace</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquid dicta, iure itaque quisquam consequuntur.</p>
+            </div>
+
+          </div>
+
+         </section>
+
+         <!-- ACTION -->
+
+         <section class="action">
+
+        <div class="container-cta">
+
+          <img src="./src/img/honolulu.jpg" alt="Honolulu" id="honolulu">
+
+          <div class="cta-content">
+            <h2>Bs As - Octubre</h2>
+            <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos.
+              Honolulu es la más sureña entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al 
+              área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de 
+              Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad aproximadamente
+              600 km2 de superfície.</p>
+            <a href="#" class="btn btn-transparent">Conocé más</a>
+          </div>
+
+        </div>
+
+         </section>
+
+         <!-- FORMULARIO -->
+
+         <section class="form" id="form">
+
+          <div class="title">
+
+            <h6>CONVIÉRTETE EN UN</h6>
+            <h2>ORADOR</h2>
+            <h3>Anótate como orador para dar <span class="underline">charla ignite.</span> Cuéntanos de que 
+            quiere hablar!</h3>
+          
+          <div class="container-form">
+
+            <form action="">
+
+              <div class="first-last-name">
+                <input type="text" class="input-name" name="input-firstname" placeholder="Nombre" required>
+                <input type="text" class="input-name" name="input-lastname" placeholder="Apellido" required>
+              </div>
+              <textarea name="input-about" id="" cols="30" rows="6" class="input-about" placeholder="Sobre qué quieres hablar" required></textarea>
+              <h6>Recuerda incluir un título para tu charla.</h6>
+              <input type="submit" class="btn-submit" value="Enviar">
+
+            </form>
+
+
+
+          </div>
+
+          </div>
+
+         </section>
+
+      <!-- FOOTER -->
+
+      <footer class="footer">
+
+        <div class="container-footer">
+
+          <a href="#" class="footer-item">Preguntas frecuentes</a>
+          <a href="#" class="footer-item">Contáctanos</a>
+          <a href="#" class="footer-item">Prensa</a>
+          <a href="#" class="footer-item">Conferencias</a>
+          <a href="#" class="footer-item">Términos y condiciones</a>
+          <a href="#" class="footer-item">Privacidad</a>
+          <a href="#" class="footer-item">Estudiantes</a>
+
+        </div>
+
+        <div class="container-fluid d-flex justify-content-center bg-black pt-1 copy">
+
+          <a href="https://github.com/WilverArriaza/cac-tp-integrador.git" target="_blank"><span><img src="./src/img/github.png" alt="CaC logo" id="github"></span></a><a class="text-decoration-none" href="https://github.com/WilverArriaza/integrador-final-cac.git" target="_blank"><h2 class="fs-5 pt-1" id="wilver">WilverArriaza</h2> </a>       
+    
+        </div>
+
+      </footer>     
+
+    </main>
+
+    <script src="./src/js/bootstrap.min.js"></script>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
